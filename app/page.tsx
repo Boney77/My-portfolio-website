@@ -1,6 +1,5 @@
 import { ContactSection } from "@/components/contact-section";
 import { Footer } from "@/components/footer";
-import { GitHubStatsSection } from "@/components/github-stats";
 import { HeroSection } from "@/components/hero-section";
 import { Navbar } from "@/components/navbar";
 import { ProjectsSection } from "@/components/projects-section";
@@ -15,7 +14,6 @@ export default function Home() {
         <HeroSection />
         <SkillsSection />
         <ProjectsSection />
-        <GitHubStatsSection />
         <TimelineSection />
         <ContactSection />
       </main>
