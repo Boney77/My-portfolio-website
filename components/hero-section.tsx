@@ -91,8 +91,12 @@ export function HeroSection() {
               </div>
               <div className="space-y-4 pt-5 font-mono text-sm">
                 <p className="text-zinc-500">class PortfolioService {"{"}</p>
-                <p className="pl-4 text-cyan-200">stack = ["Java", "Spring Boot", "AWS"];</p>
-                <p className="pl-4 text-emerald-200">focus = "Scalable backend platforms";</p>
+                <p className="pl-4 text-cyan-200">
+                  {"stack = [\"Java\", \"Spring Boot\", \"AWS\"];"}
+                </p>
+                <p className="pl-4 text-emerald-200">
+                  {"focus = \"Scalable backend platforms\";"}
+                </p>
                 <p className="pl-4 text-zinc-300">ship() {"{"} return reliableApis; {"}"}</p>
                 <p className="text-zinc-500">{"}"}</p>
               </div>
