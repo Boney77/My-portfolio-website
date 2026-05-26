@@ -23,7 +23,7 @@ export const profile = {
   githubUser: "Boney77",
   linkedin: "https://www.linkedin.com/in/boney-babu-mechery/",
   email: "mailto:boney.mechery@example.com",
-  resume: "/resume.pdf",
+  resume: "/Resume_Boney_Mechery.pdf",
 };
 
 export const skills: Skill[] = [
@@ -91,8 +91,46 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
+    slug: "food-court-real-time-order-tracking-system",
+    title: "Food Court - Real-Time Order Tracking System",
+    category: "Full Stack + Real-Time Web Application",
+    description:
+      "Developed a real-time food court order management and tracking platform with live status updates, QR-based tracking, and role-based dashboards.",
+    techStack: [
+      "Next.js 14",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "Supabase Realtime",
+      "Vercel",
+    ],
+    highlights: [
+      "Real-time food order tracking system",
+      "QR-based customer order tracking",
+      "5-second polling fallback for reliability",
+      "Staff and admin dashboards for live operations",
+    ],
+    accent: "from-amber-200 to-rose-400",
+    liveDemoUrl: "https://food-court-livid.vercel.app/",
+    githubUrl: "https://github.com/Boney77/food-court",
+    coverImage: "/projects/project2.png",
+    featured: true,
+    topFeatured: true,
+    role: "Solo Project",
+    deployment: "Vercel",
+    status: "Completed",
+    highlightTags: ["Real-Time", "Next.js", "Supabase", "QR Tracking", "Full Stack"],
+    achievements: [
+      "Implemented real-time synchronization using Supabase Realtime.",
+      "Designed role-based dashboards for customers, staff, and admins.",
+      "Built resilient tracking flow with realtime plus polling fallback.",
+    ],
+    credentials: ["Staff PIN: 1234", "Admin PIN: 9999"],
+  },
+  {
     slug: "orderflow-flash-sale-inventory-reservation-engine",
-    title: "OrderFlow — Flash Sale Inventory Reservation Engine",
+    title: "OrderFlow - Flash Sale Inventory Reservation Engine",
     category: "Distributed Systems + High Concurrency + Full Stack Engineering",
     description:
       "Engineered a high-concurrency distributed backend system designed to handle massive flash-sale traffic with guaranteed inventory consistency and zero overselling.",
@@ -190,7 +228,7 @@ export const projects: Project[] = [
   },
   {
     slug: "devpulse-ai-powered-developer-dashboard",
-    title: "DevPulse AI — AI Powered Developer Dashboard",
+    title: "DevPulse AI - AI Powered Developer Dashboard",
     category: "AI + Frontend Engineering + Developer Tools",
     description:
       "Built a modern AI-powered developer productivity dashboard that centralizes GitHub analytics, LeetCode progress, productivity tracking, weather intelligence, and developer notes.",
@@ -223,48 +261,18 @@ export const projects: Project[] = [
       "Designed interactive analytics visualizations using Recharts.",
     ],
   },
-  {
-    slug: "food-court-real-time-order-tracking-system",
-    title: "Food Court — Real-Time Order Tracking System",
-    category: "Full Stack + Real-Time Web Application",
-    description:
-      "Developed a real-time food court order management and tracking platform with live status updates, QR-based tracking, and role-based dashboards.",
-    techStack: [
-      "Next.js 14",
-      "TypeScript",
-      "Tailwind CSS",
-      "Supabase",
-      "PostgreSQL",
-      "Supabase Realtime",
-      "Vercel",
-    ],
-    highlights: [
-      "Real-time food order tracking system",
-      "QR-based customer order tracking",
-      "5-second polling fallback for reliability",
-      "Staff and admin dashboards for live operations",
-    ],
-    accent: "from-amber-200 to-rose-400",
-    liveDemoUrl: "https://food-court-livid.vercel.app/",
-    githubUrl: "https://github.com/Boney77/food-court",
-    coverImage: "/projects/project2.png",
-    featured: false,
-    role: "Solo Project",
-    deployment: "Vercel",
-    status: "Completed",
-    highlightTags: ["Real-Time", "Next.js", "Supabase", "QR Tracking", "Full Stack"],
-    achievements: [
-      "Implemented real-time synchronization using Supabase Realtime.",
-      "Designed role-based dashboards for customers, staff, and admins.",
-      "Built resilient tracking flow with realtime plus polling fallback.",
-    ],
-    credentials: ["Staff PIN: 1234", "Admin PIN: 9999"],
-  },
 ];
 
 export const timeline: TimelineItem[] = [
   {
-    title: "OrderFlow — Flash Sale Inventory Reservation Engine",
+    title: "Food Court - Real-Time Order Tracking System",
+    period: "Realtime product milestone",
+    description:
+      "Delivered operational order tracking with Supabase Realtime, QR flows, and role-specific dashboards.",
+    metrics: ["Realtime sync", "QR tracking", "Supabase"],
+  },
+  {
+    title: "OrderFlow - Flash Sale Inventory Reservation Engine",
     period: "Distributed systems milestone",
     description:
       "Engineered inventory reservation around Redis atomic operations, event-driven processing, and real-time operational visibility.",
@@ -278,18 +286,11 @@ export const timeline: TimelineItem[] = [
     metrics: ["Rule scoring", "Spring Boot", "Railway + Vercel"],
   },
   {
-    title: "DevPulse AI — AI Powered Developer Dashboard",
+    title: "DevPulse AI - AI Powered Developer Dashboard",
     period: "Developer tools milestone",
     description:
       "Designed a polished dashboard that brings developer analytics, productivity signals, and notes into one workspace.",
     metrics: ["GitHub analytics", "Recharts", "Framer Motion"],
-  },
-  {
-    title: "Food Court — Real-Time Order Tracking System",
-    period: "Realtime product milestone",
-    description:
-      "Delivered operational order tracking with Supabase Realtime, QR flows, and role-specific dashboards.",
-    metrics: ["Realtime sync", "QR tracking", "Supabase"],
   },
 ];
 
