@@ -8,14 +8,30 @@ export type Skill = {
 };
 
 export type Project = {
+  slug: string;
   title: string;
   description: string;
   techStack: string[];
   highlights: string[];
   accent: string;
-  demoUrl: string;
+  liveDemoUrl: string;
   githubUrl: string;
   category: string;
+  coverImage: string;
+  featured: boolean;
+  topFeatured?: boolean;
+  role: string;
+  deployment: string;
+  status: string;
+  highlightTags: string[];
+  achievements: string[];
+  metrics?: Array<{
+    label: string;
+    value: string;
+  }>;
+  credentials?: string[];
+  coreProblem?: string;
+  technicalHighlights?: string[];
 };
 
 export type TimelineItem = {
