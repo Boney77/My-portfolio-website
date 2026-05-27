@@ -12,7 +12,7 @@ export function SkillsSection() {
         <SectionHeading
           eyebrow="Technical Stack"
           title="Backend depth with full-stack range"
-          description="A focused toolset for building secure APIs, data-heavy products, and cloud-ready systems that recruiters can understand quickly."
+          description="Technologies I use to design reliable APIs, distributed workflows, cloud-ready services, and polished full-stack product experiences."
         />
         <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {skills.map((skill, index) => (

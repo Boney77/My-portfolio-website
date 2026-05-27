@@ -17,7 +17,7 @@ export function HeroSection() {
             className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/[0.04] px-3 py-2 text-sm text-cyan-200 shadow-inner-glow"
           >
             <Sparkles className="h-4 w-4" />
-            Java backend systems with product-grade polish
+            Backend-focused engineer building real-world software
           </motion.div>
           <motion.h1
             initial={{ y: 28, opacity: 0 }}

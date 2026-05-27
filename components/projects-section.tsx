@@ -143,7 +143,7 @@ export function ProjectsSection() {
         <SectionHeading
           eyebrow="Selected Work"
           title="Actual projects built for real product and system challenges"
-          description="A recruiter-friendly showcase of distributed systems, AI dashboards, backend intelligence, and real-time full-stack applications."
+          description="A curated set of shipped applications across distributed systems, AI dashboards, real-time platforms, and backend-heavy product engineering."
         />
 
         <div className="mt-14 grid items-stretch gap-5 lg:grid-cols-2">
